@@ -140,7 +140,10 @@ class ViewController: UIViewController {
             print("Not Expected Operator")
         }
         
-        self.setNewTextValue("\(operatedValue)")
+        self.setNewTextValue("\(operatedValue)") 
+        self.isOperating = false
+        self.isCompleteOperation = false
+        self.activeOperator = ""
     }
 }
 
